@@ -1,0 +1,9 @@
+numero-magico.poti
+escreva "Meu primeiro jogo"
+escreva "Qual o seu nome?"
+nome = leia_texto
+escreva "Bem-vindo, {nome}"
+magico = aleatorio(1,50)
+escreva "Digite um número."
+numero = leia_inteiro
+escreva "{magico} {numero}"
