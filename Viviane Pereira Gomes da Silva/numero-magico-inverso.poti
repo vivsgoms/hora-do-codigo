@@ -1,0 +1,11 @@
+escreva "Qual é o seu nome?"
+nome = leia_texto
+escreva "{nome}, pense em um número de 1 a 100 e digite 'Ok' para que eu advinhe."
+resposta = leia_texto
+magico = aleatorio (1,100)
+escreva "O número escolhido foi {magico}. Digite o número que você escolheu."
+numero = leia_inteiro
+se magico == numero
+escreva "Você perdeu, {nome}."
+senão
+  escreva "Você ganhou, {nome}!"
